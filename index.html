@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Rock Paper Scissors Game | Jaycode</title>
+</head>
+<body>
+    <h1>Rock-Paper-Scissors Game</h1>
+
+    <div class="choices">
+        <button onclick="PlayGame('rock')">👊</button>
+        <button onclick="PlayGame('paper')">✋</button>
+        <button onclick="PlayGame('scissors')">✌</button>
+    </div>
+
+    <div>
+        <div id="playerDisplay">Player:</div>
+        <div id="computerDisplay">Computer:</div>
+        <div id="resultDisplay"></div>
+    </div>
+
+    <div id="scoreDisplay">
+        Player Score:
+        <span id="playerScoreDisplay">0</span>
+    </div>
+
+    <div id="scoreDisplay">
+        Computer Score:
+        <span id="computerScoreDisplay">0</span>
+    </div>
+
+    <script src="./script.js"></script>
+</body>
+</html>
